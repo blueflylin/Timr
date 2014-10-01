@@ -14,4 +14,5 @@ timr.init({…})
 Parameters
 
 "beaconURL" : url to the get request e.g. perf.gif
+
 "params" : any custom parameters to append to the query string

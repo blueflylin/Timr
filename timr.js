@@ -36,7 +36,7 @@ var timr = (function () {
         img.src = getURL(defaults.beaconURL) + getStats(performance.timing);
     };
 
-    // simple return statement
+    // public, fetch a beacon on window.onload
     function init(options) {
         // merge options
         for (var o in options) { defaults[o] = options[o]; };
